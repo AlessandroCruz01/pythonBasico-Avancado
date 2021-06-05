@@ -1,0 +1,103 @@
+<Login>
+    name: 'login'
+    background_color: 1,1,1,1
+    FloatLayout:
+        Label:
+            text: "Login"
+            size_hint: (.2, .05)
+            pos_hint: {'x': .40, 'y': .75}
+
+        Label:
+            text: "CPF"
+            size_hint: (.2, .05)
+            pos_hint: {'x': .23, 'y': .60}
+        TextInput:
+            id: cpf
+            multiline: False
+            hint_text: 'CPF'
+            size_hint: (.4, .05)
+            pos_hint: {'x': .30, 'y': .55}
+
+        Label:
+            text: "Senha"
+            size_hint: (.2, .05)
+            pos_hint:{'x':.23,'y':.50}
+        TextInput:
+            id: senha
+            password: True
+            multiline: False
+            hint_text: 'Senha'
+            size_hint: (.4, .05)
+            pos_hint:{'x':.30,'y':.45}
+
+        Button:
+            text: "Logar"
+            size_hint: (.2, .05)
+            pos_hint:{'x':.30,'y':.30}
+            background_color: 0,1,0,1
+            on_release: root.verificarAcesso()
+        Button:
+            text: "Redefinir"
+            size_hint: (.2, .05)
+            pos_hint:{'x':.50,'y':.30}
+            on_release: app.gerenciador.transferir('redefinirSenha', 'left')
+
+<RedefinirSenha>:
+    name: 'redefinirSenha'
+    FloatLayout:
+        Label:
+            text: "Redefinição de Senha"
+            size_hint: (.2, .05)
+            pos_hint: {'x': .40, 'y': .75}
+
+        Label:
+            text: "E-mail"
+            size_hint: (.2, .05)
+            pos_hint: {'x': .23, 'y': .60}
+        TextInput:
+            id: email
+            multiline: False
+            hint_text: 'E-mail'
+            size_hint: (.4, .05)
+            pos_hint: {'x': .30, 'y': .55}
+
+        Label:
+            text: "CPF"
+            size_hint: (.2, .05)
+            pos_hint: {'x': .23, 'y': .50}
+        TextInput:
+            id: cpf
+            multiline: False
+            hint_text: 'CPF'
+            size_hint: (.4, .05)
+            pos_hint: {'x': .30, 'y': .45}
+
+        Button:
+            text: "Redefinir"
+            size_hint: (.2, .05)
+            pos_hint:{'x':.30,'y':.30}
+            background_color: 0,1,0,1
+
+        Button:
+            text: "Cancelar"
+            size_hint: (.2, .05)
+            pos_hint:{'x':.50,'y':.30}
+            on_release: app.gerenciador.transferir('login', 'right')
+
+<Inicio>:
+    name: 'inicio'
+    FloatLayout:
+        Label:
+            text: "Início"
+            size_hint: (.2, .05)
+            pos_hint: {'x': .40, 'y': .75}
+        Button:
+            text: "Voltar"
+            size_hint: (.2, .05)
+            pos_hint:{'x':.40,'y':.30}
+            on_release: app.gerenciador.transferir('login', 'right')
+
+<Gerenciador>:
+    Login:
+    RedefinirSenha:
+    Inicio:

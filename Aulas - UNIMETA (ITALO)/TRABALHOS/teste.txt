@@ -1,0 +1,48 @@
+CPF: 02509515250
+Nome: ALESSANDRO
+E-mail: @gmail.com
+Mae: LENE
+Pai: FRAN
+Cep: 69908055
+Cidade: RIO BRANCO
+Estado: AC
+Rua: TRAVESSA BOTAFOGO
+Bairro: BELO JARDIM II
+Nº Casa: 45
+---------------------------------
+CPF: 02509515250
+Nome: AFFFFFFF
+E-mail: 
+Mae: 
+Pai: 
+Cep: 
+Cidade: 
+Estado: 
+Rua: 
+Bairro: 
+Nº Casa: 
+---------------------------------
+CPF: 
+Nome: 
+E-mail: 
+Mae: 
+Pai: 
+Cep: 
+Cidade: 
+Estado: Selecione
+Rua: 
+Bairro: 
+Nº Casa: 
+---------------------------------
+CPF: 
+Nome: 
+E-mail: 
+Mae: 
+Pai: 
+Cep: 
+Cidade: 
+Estado: Selecione
+Rua: 
+Bairro: 
+Nº Casa: 
+---------------------------------

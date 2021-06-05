@@ -1,0 +1,12 @@
+CPF: 
+Nome: 
+E-mail: 
+Rua: 
+Nº Casa: 
+Bairro: 
+Cidade: 
+Estado: Acre
+CEP: 
+Mae: 
+Pai: 
+---------------------------------

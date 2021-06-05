@@ -1,0 +1,8 @@
+Escreva um exemplo de classe para fila análogo ao que usamos para pilha.
+
+Criação da fila (informar a capacidade no caso de implementação sequencial - vetor);
+enfileirar (enqueue) - o elemento é o parâmetro nesta operação;
+desenfileirar (dequeue);
+mostrar a fila (todos os elementos);
+verificar se a fila está vazia (isEmpty);
+verificar se a fila está cheia (isFull - implementação sequencial - vetor).

@@ -1,0 +1,5 @@
+
+ ---- RELATORIO DE CLIENTES ----
+
+----------------------------------
+ID: 48Nome: CleutonNascimento: CPF: 76212408220RG: Tipo de cadastro: SelecioneTelefone: Telefone Celular: Telefone Referência: email: Endereço: CEP: Bairro: Cidade: Uf: Selecione
